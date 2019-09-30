@@ -2,7 +2,7 @@
 using System.ComponentModel;
 using System.Globalization;
 
-namespace SimpleCommandLine
+namespace TGE.SimpleCommandLine
 {
     public class SimpleCommandLineParser
     {

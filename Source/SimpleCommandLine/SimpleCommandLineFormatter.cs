@@ -2,7 +2,7 @@
 using System.Reflection;
 using System.Text;
 
-namespace SimpleCommandLine
+namespace TGE.SimpleCommandLine
 {
     public class SimpleCommandLineFormatter
     {

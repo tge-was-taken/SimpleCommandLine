@@ -7,8 +7,8 @@
     <ProjectGuid>{7A1F22A9-5EED-4F8D-A3C9-A99B8ECFACB0}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>SimpleCommandLine</RootNamespace>
-    <AssemblyName>SimpleCommandLine</AssemblyName>
+    <RootNamespace>TGE.SimpleCommandLine</RootNamespace>
+    <AssemblyName>TGE.SimpleCommandLine</AssemblyName>
     <TargetFrameworkVersion>v4.7.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <Deterministic>true</Deterministic>

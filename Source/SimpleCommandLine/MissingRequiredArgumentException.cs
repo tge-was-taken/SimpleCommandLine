@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace SimpleCommandLine
+namespace TGE.SimpleCommandLine
 {
     [Serializable]
     public class MissingRequiredArgumentException : Exception

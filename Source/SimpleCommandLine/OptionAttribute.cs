@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace SimpleCommandLine
+namespace TGE.SimpleCommandLine
 {
     [AttributeUsage( AttributeTargets.Field | AttributeTargets.Property, Inherited = false, AllowMultiple = false )]
     public sealed class OptionAttribute : Attribute
