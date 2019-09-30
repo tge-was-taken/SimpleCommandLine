@@ -1,6 +1,91 @@
 # SimpleCommandLine
 Simple command line formatting/parsing library because I'm stubborn and want to do my own thing.
 
+# Example output
+```
+DDS3ModelConverter 1.0.0 by TGE (2019)
+A model converter for DDS3 engine games.
+
+Usage:
+DDS3ModelConverter <option> <args> [optional parameters]
+
+Options:
+-i
+--input <filepath> (required)
+Specifies the path to the file to use as input.
+
+-if
+--input-format <auto|pb|mb|f1|obj|dae|fbx>
+Specifies the input format of the specified input file.
+
+-o
+--output <filepath> (required)
+Specifies the path to the file to save the output to.
+
+-of
+--output-format <auto|pb|mb|f1|obj|dae|fbx>
+Specifies the conversion output format.
+
+-ai-a
+--ai-input-anim
+When specified, the input is treated as an animation file, rather than a model file which affects the conversion process.
+
+-ai-pbm
+--ai-output-pb-motion
+When specified, motions found within the given packed model file are exported when exporting a PB model obj/dae/fbx.
+
+-pb-i
+--pb-replace-input <filepath>
+Specifies the base PB file to use for the conversion.
+
+-pb-mi
+--pb-replace-motion-index <0-based index>
+Specifies the index of the motion in the PB file to replace.
+
+-pb-mpi
+--pb-replace-motion-pack-index <0-based index>
+Specifies the index of the motion pack in the PB file to replace.
+Default is 0.
+
+-pb-mmi
+--pb-replace-motion-model-index <0-based index>
+Specifies the index of the model in the PB file to use when replacing motions.
+Default is 0.
+
+-ts
+--tmx-scale <decimal scale factor>
+Specifies the scaling used for texture conversions.
+Default is 1.
+
+-mb-mo
+--mb-material-overlays
+When specified, enables the usage of overlay materials.
+
+-mb-umt
+--mb-unweighted-mesh-type <1|8>
+Specifies the mesh type to be used for unweighted meshes.
+Default is 1.
+
+-mb-wmt
+--mb-weighted-mesh-type <2|7>
+Specifies the mesh type to be used for weighted meshes.
+Default is 7.
+
+-mb-wl
+--mb-mesh-weight-limit <integer>
+Specifies the max number of weights to be used per mesh. 3 might give better results.
+Default is 4.
+
+-mb-vl
+--mb-batch-vertex-limit <integer>
+Specifies the max number of vertices to be used per batch.
+Default is 24.
+
+-f1-lbi
+--f1-lb-replace-input <filepath>
+Specifies the base field LB file to use for the conversion.
+```
+
 # Example usage
 
 ## Define options object(s)
